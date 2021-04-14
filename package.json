@@ -11,6 +11,8 @@
     "firebase": "^8.3.3",
     "jquery": "^3.6.0",
     "materialize-css": "^1.0.0-rc.2",
+    "momen": "0.0.1-security",
+    "moment": "^2.29.1",
     "popper.js": "^1.16.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
