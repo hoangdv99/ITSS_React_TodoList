@@ -10,17 +10,17 @@ function Filter( {value, onChange} ) {
           href="#"
           onClick={handleClick.bind(null, 'ALL')}
           className={value === 'ALL' ?  'is-active' : ''}
-        >全て</a>
+        >All</a>
         <a
           href="#"
           onClick={handleClick.bind(null, 'TODO')}
           className={value === 'TODO' ?  'is-active' : ''}
-        >未完了</a>
+        >Doing</a>
         <a
           href="#"
           onClick={handleClick.bind(null, 'DONE')}
           className={value === 'DONE' ?  'is-active' : ''}
-        >完了済み</a>
+        >Done</a>
       </div>
     );
   }
